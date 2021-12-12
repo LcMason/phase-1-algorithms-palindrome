@@ -1,8 +1,27 @@
-function isPalindrome(word) {
-  // Write your algorithm here
-}
+function isPalindrome(str) {
+  const reversed = str.split('').reverse().join('');
+  if (reversed === str) return true;
 
-/* 
+  return false;
+  
+}
+isPalindrome('racecar');
+    //return (word === reverseWord);
+
+
+    //isPalindrome('racecar', 'racecar')
+     
+
+      
+
+
+
+    
+  // Write your algorithm here
+  //write a function named isPalindrome that receives 1 argument, a string. 
+  //This function should return true if the string is a Palindrome and false if it is not.
+
+/* create function. Pass a string as an argument (Palindrome). If string is a palindrome, return true. If not return false.
   Add your pseudocode here
 */
 
